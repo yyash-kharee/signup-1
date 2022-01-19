@@ -1,0 +1,155 @@
+body{
+    background-color: lightgray;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand{
+    font-size: large;
+}
+.box{
+    margin-top:30px;
+    display: flex;
+}
+.content{
+    margin-top: 50px;
+}
+p{
+    margin-left: 63px;
+}
+.hr-text {
+    margin-top: 33px;
+    border: none;
+    border-top: 1px dashed black;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+.hr-text:after {
+    background: #dedee1;
+    content: "100,000 Business Trust CashFree";
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+.hr-right {
+    border: none;
+    border-top: 1px dashed black;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+.hr-right:after {
+    background: #dedee1;
+    content: "Or";
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+.left-hr{
+    margin-top: 216px;
+    border-top: 1px dashed black;
+  }
+.img-left{
+    float: left;
+    height: 45px;
+}
+.img-right{
+    float: left;
+    height: 21px;  
+}
+.left{
+    margin-right: 0%;
+    text-align: left;
+    background-color:#dedee1;
+    width: 600px;
+    margin: 25px 9%;
+    padding: 20px;
+    height: 600px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.right {margin-left: 275px;
+    background-color:#dedee1;
+  width: 600px;
+  margin: 25px 9%;
+  padding: 20px;
+  height: 600px;
+  text-align: center;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.btn{
+    margin-top:10px ;
+    margin-bottom: 10px;
+  width: 373px;
+}
+
+.right-heading{
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.container{
+    margin-bottom: 24px;
+}
+.yellow{
+    background-color: #e1b92f;
+    -moz-box-shadow: 0 21px 19px -2px rgba(217, 217, 217, 1);
+    box-shadow: 0 21px 19px -2px #dedee1;
+    transform: translateY(-1px);
+}
+
+
+  @media screen and (max-width: 768px) and (min-width: 600px){
+    .box{
+
+      display: block;
+    }
+    .left{
+        margin-left: 132px;
+        width: 500px;
+    }
+    .right{
+        margin-left: 132px;
+        width: 500px;
+    }
+    .navbar{
+        width: 100%;
+    }
+  }  
+
+  @media screen and (max-width: 1369px) and (min-width: 992px)  {
+    .box{
+        display: flex;
+    }
+    .left{
+        margin: 22px;
+        width: 500px;
+    }
+    .right{
+        margin: 22px;
+        width: 500px;
+    }
+  }
+  @media only screen and (max-width: 600px){
+    .box{
+
+        display: block;
+      }
+      .left{
+          width: 373px;
+      }
+      .right{
+
+          width: 373px;
+      }
+      .btn{
+          width: 332px;
+      }
+      .left-hr{
+        margin-top: 138px;
+    }
+  }
