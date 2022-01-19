@@ -140,10 +140,11 @@ p{
         display: block;
       }
       .left{
+          margin: 10px;
           width: 373px;
       }
       .right{
-
+           margin: 10px;
           width: 373px;
       }
       .btn{
